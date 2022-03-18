@@ -1,0 +1,650 @@
+.main-container{
+    background-image: linear-gradient(to bottom right,rgb(230, 242, 252),rgb(230, 245, 253),#fff,rgba(229, 243, 250, 0.65), rgb(217, 233, 245));
+}
+header{
+    position: relative;
+}
+header.hd-heig{
+    height: 100vh;
+}
+header.contact{
+    height: 70vh;
+}
+nav >ul{
+    width: 50%;
+}
+nav >ul >li{
+    list-style: none;
+    font-size: 16px;
+    line-height: 24px;
+}
+nav >ul >li >a{
+    text-decoration: none;
+    color: rgba(105, 105, 105, 1);
+}
+nav >ul >li >a:hover{
+    color: #40A3F8;
+    border-bottom: rgba(64, 163, 248, 1) 2px solid;
+}
+nav button:hover{
+    background-color: rgb(130, 126, 126);
+}
+.toggle-menu {
+    display:none;
+}
+.togg{
+    font-size: 2.7rem;
+    display: none;
+}
+.toggle-menu{
+    display: none;
+    width: 26%;
+    height: 55.8vh;
+    border-bottom-left-radius: 70px ;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    top: 5.7em;
+    transition: all 2s;
+    animation: fade-in 2s;
+}
+.display {
+    display:block;
+}
+button{
+    border-radius: 5px; 
+    padding: 15px 30px;
+    border: none;
+    font-size: 15px;
+    line-height: 22px;
+}
+.hd-content{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-50%);
+}
+.hd-h1{
+    font-size: 3.5vmin;
+    line-height: 70px;   
+}
+header p{
+    font-weight: 400;
+    font-size: 2.5vmin;
+    line-height: 30px;
+}
+.head-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 80%;
+    z-index: 1;
+}
+.head-img >img{
+    height: 100%;
+}
+/****************** Section Four Through Mobile Apps  *****************/
+.sec-4 .sec-3{
+    width: 60%;
+    margin: 0 auto;
+}
+.sec4-vec-img{
+    margin: 10px 0px;
+}
+.flex-col-4{
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 3%;
+}
+.col4{
+    padding: 5px;
+    border-radius: 10px;
+    background: linear-gradient(138.88deg, rgba(254, 254, 254, 0) -2.44%, #F9F9F9 -2.43%, rgba(254, 254, 254, 0.51) 98.26%);
+    border: 1px solid #EEEFF1;
+    filter: drop-shadow(0px 4px 120px rgba(0, 0, 0, 0.05));
+}
+.flex4-img-dis{
+    height: 280px;
+    width: 240px;
+    border-radius: 10px;
+}
+.img1{
+    background-image: url(/images/sec4-img1.svg);  
+}
+.img2{
+    background-image: url(/images/sec4-img2.svg);
+}
+.img3{
+    background-image: url(/images/sec4-img3.svg);
+}
+.img4{
+    background-image: url(/images/sec4-img4.svg);
+}
+.col4 >h5{
+    margin: 10px 0px 0px;
+}
+.social{
+    margin: 8px 0px;
+}
+.sec4-btn{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/************* Section Three - Our Service ******************/
+.flex-row-2-txt >button{
+    margin-top: 20px;
+}
+.flex-row-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1px 0px;   
+}
+.flex-3-bg{
+    background: linear-gradient(138.88deg, rgba(254, 254, 254, 0) -2.44%, #F9F9F9 -2.43%, rgba(254, 254, 254, 0.51) 98.26%);
+    border-radius: 10px;
+} 
+.sec3 >img{
+    margin-top: 20px;
+}
+.sec3 >h5{
+    margin: 10px 0px;
+}
+.sec3 >h6{
+    margin-bottom: 20px;
+}
+.div-active{
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.active::after{
+    content: "";
+    width: 100%;
+    height: 18px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #40A3F8;
+    border-radius: 0 0 10px 10px;
+}
+
+.carol{
+    display: flex;
+    justify-content: center;
+    margin: 60px 0px;
+    gap: 10px;
+}
+.carousel1{
+    background-color: rgba(64, 163, 248, 1);
+    border-radius: 20px;
+    width: 60px;
+    height: 20px;
+}
+.carousel2{
+    background-color:  rgba(219, 232, 238, 1);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+/****************** Section Five  - Mobile App *****************/
+.flex-col-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-col-2-div1{
+    width: 45%;
+}
+.flex-col-2-div2{
+    width: 45%;
+    line-height: 60px;
+} 
+.flex-col-2-div1 >img{
+    transform: scale(1.3);
+    width: 100%;
+ }
+.mobile-app{
+    margin-top: 40px;
+} 
+/****************** Section Six - Look our Clients have to say about us *****************/
+.flex3-size{
+    position: relative;
+    margin: 0% 3%;
+     background-color: linear-gradient(132.1deg, rgba(255, 255, 255, 0.88) 0.65%, #FAFAFA 103.13%);
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 1% 2%;
+    width: 27%;
+}
+.s6-last-p{ 
+    font-size: 2vmin;
+    line-height: 23px;
+    color: #454D5D;
+}
+.flex3-size >img{
+    margin: 3% auto;
+    display: block;
+    border-radius: 50%;
+}
+.flex3-ellip{
+    position: absolute;
+    right: 40px;
+    top: -20px;    
+}
+.s6-p-1{
+    font-weight: 700;
+    font-size: 2.6vmin;
+}
+.s6-p-2{
+    color: #47C2FF; 
+    font-size: 2vmin;
+    line-height: 25px;
+    padding: 6px 0px;
+    text-align: left;
+}
+.p_type4_col{
+    color: rgba(153, 153, 153, 1);
+}
+/****************** Section Seven - Book Appointment *****************/
+.sec-seven{
+    padding-top: 10%;
+    position: relative;
+    margin-top: 1%;
+}
+.sec7-bg{
+    border-radius: 8px;
+    background-color: #40A3F8;
+    line-height: 40px;
+    padding: 6% 4% ;
+}
+.sec7-bg >h3{
+    width: 42%;
+    font-size: 4.8vmin;
+    z-index: 2;
+}
+.sec7-bg >img{
+    position: absolute;
+    height: 100%;
+    max-height: fit-content;
+    bottom: 0;
+    right: 12%;
+    z-index: 1;
+}
+/****************** Section Eight - Footer *****************/
+.footer-bg {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 40% 1fr 30%; 
+    margin-top: 5%;
+    border-radius: 9;
+}
+.two-foot >div >h4{
+    font-size: 2.5vmin;
+    color: #323232;
+}
+.two-foot >div >h6{
+    padding: 8px;
+    font-size: 14px;
+    color: #646464;
+}
+.footer-name >p{
+    font-size: 2vmin;
+    line-height: 30px;
+    color: #646464;
+}
+.two-foot{
+    display: flex;
+    /* margin: 0% -4%; */
+    gap: 30%;
+    margin-right: 60%;
+}
+.footer-sub{
+    width: 100%;
+}
+.footer-sub >h5{
+    padding: 8px;
+    font-size: 14px;
+    line-height: 180%;
+    color: #646464;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.email{
+    padding: 10px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+}
+/******************** Footer Copyright ********************/
+.footer-cpyr{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 2% 5%;
+    color: #646464;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-cpyr-li{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/**************** Contact Us Page *******************/
+.contact-img-bg{
+    background-image: url(../images/contact-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-head{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact-head >h1{
+    font-family: 'Poppins';
+    font-size: 10vmin;
+    line-height: 70px;
+    letter-spacing: -0.4375px;
+}
+.contact-head >p{
+    font-family: 'Mont';
+    font-size: 3.5vmin;
+    line-height: 20px;
+}
+/* Card */
+.form{
+    padding: 8%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.location{
+    width: 35%;
+    border-radius: 10px;
+    box-shadow: 0px 3.5px 35px 0px rgba(43, 89, 255, 0.08);
+}
+.detail{
+    padding: 6% 13%;
+    background: linear-gradient(90.98deg, #40A3F8 0.91%, #2B59FF 99.26%);
+    border-radius: 8.75px 8.75px 0px 0px;
+}
+.detail >h3{
+    font-family: 'HK Grotesk';
+    font-size: 26.25px;
+    line-height: 37px;
+}
+.info{
+    padding: 40px 50px 50px 50px;
+}
+.info-title{
+    margin-bottom: 7%;
+    font-family: 'HK Grotesk';
+    font-size: 17.5px;
+    line-height: 23px;
+}
+.c_int{
+    margin-top: 9%;
+}
+.email, .tele, .address{
+    display: flex;
+    margin-bottom: 5%;
+}
+.email p, .tele p, .address p{
+    margin-left: 20px;
+}
+.info{
+    padding: 40px 50px 50px 50px;
+}
+hr{
+    border: 1px solid rgba(55, 124, 253, 1);
+    
+}
+/* Form */
+.forms{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    padding: 3%;
+    box-shadow: 0px 3.5px 35px 0px rgba(43, 89, 255, 0.08);
+    border-radius: 10px;
+}
+.txt{
+    background-color: #F6F9FF;
+    border-radius: 4.375px;
+}
+.btn{
+    width: fit-content;
+}
+input{
+    padding: 3%;
+    border-radius: 3px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 2%;
+}
+textarea{
+    padding: 3%;
+    margin-bottom: 4%;
+    border: 0;
+    outline: 0;
+}
+
+/* Media Query */
+@media only screen and (max-width:900px){
+    /* Home Page */
+    .head-img >img{
+        opacity: 0.6;
+    }
+    .hd-h1{
+        font-size: 3.5vmin;
+        line-height: 60px; 
+        width: 50%; 
+        margin: 0% 20%; 
+    }
+    .mobile-app{
+        display: flex;
+    }
+    .mobile-app >img{
+        margin-right: 3%;
+    }
+    .flex3-ellip{
+        position: absolute;
+        right: 20px;
+        top: -15px; 
+    }
+    .sec-seven{
+        padding-top: 15%;
+        position: relative;
+        margin-top: 5%;
+    }
+    /* Nav Bar */
+    nav >ul{
+        width: 60%;
+    }
+    nav >ul >li{
+        list-style: none;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    nav >ul >li >a{
+        text-decoration: none;
+        color: rgba(105, 105, 105, 1);
+    }
+    nav >ul >li:hover{
+        background-color: #fff;
+        
+        border-bottom: #fff;
+    }
+    nav >ul >li >a:hover{
+        color: #fff
+    }
+    /* Contact Us */
+    .contact-head{ 
+        width: 60%;
+    }
+    .contact-head >h1{
+        font-size: 6vmin
+    }
+    .form{
+        display: block;
+    }
+    .location{
+        width: 100%;   
+    }
+    .forms{
+        width: 100%;
+        margin: 8% 0%;
+    }
+    .btn{
+        width: 100%;
+    }
+    /**************** Footer ***************/
+    .footer-bg{
+        grid-template-columns: 40% 1fr 25%; 
+    }
+    .footer-name >div >h1{
+        font-size: 3vmin;
+    }
+    .two-foot{
+        margin: 0% 8%;
+        gap: 0;
+        margin-right: 30%;
+    }
+    .footer-cpyr{
+        display: block;
+    }
+    .footer-cpyr-li >h6{
+        align-items: center;
+        margin: 10px 50%;
+    }   
+}
+@media only screen and (max-width:750px){
+    .flex-col-4{
+        display: flex;
+        justify-content: center; 
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 3%;
+    }
+     .mobile-app{
+        display: block;
+        margin-right: 3%;
+    }
+    nav >ul >li{
+        display: none;
+    }
+    nav >ul >button{
+        display: none;
+    }
+    .togg{
+        display: block;   
+    }
+    .toggle-menu >ul >li{
+        list-style: none;
+        margin:  32px;
+    }  
+    .toggle-menu >ul >li >a{
+        margin: 30px; 
+        text-decoration: none;
+    }
+    .toggle-menu >ul >button{
+        margin: 3% 14%;
+    }
+    .flex-row-2{
+        display: block;
+    }
+    .qual-doc, .flex-row-2-txt{
+        width: 100%;
+    }
+    .qual-doc >img{
+        transform: scale(0.9);
+    }
+    .flex3-size{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .sec7-bg >img{
+        opacity: 0.7;
+    }
+    .alg{
+        text-align: center;
+    }
+    .sec7-bg >h3{
+        width: 100%;
+        font-size: 4.8vmin;
+    }
+}@media only screen and (max-width:580px){
+    .flex-col-4{
+        display: flex;
+        justify-content: center; 
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 3%;
+    }
+    .toggle-menu >ul >li{
+        list-style: none;
+        margin: 20px;
+    }  
+    .toggle-menu >ul >li >a{
+        margin: 1%;
+        text-align: center; 
+        font-size: 4vmin;
+        text-decoration: none;
+    }
+    .toggle-menu >ul >button{
+        margin: 7% 7%;
+    }
+    .toggle-menu >ul >button >a{
+        font-size: 4vmin;
+        text-decoration: none;
+    }
+    button{ 
+        padding: 5% 6%;
+        color: #40A3F8;    }
+    .footer-bg {
+        display: block;
+    }
+    .footer-name{
+        margin: 3% 30%
+    }
+    .footer-name >p{
+        font-size: 2.5vmin;
+    }
+    .two-foot{
+        margin: 4% 28%;
+    }
+    .two-foot >div >h4{
+        font-size: 4vmin;
+    }
+    form, h5, .footer-sub >h4{
+       text-align: center;
+    }   
+    .footer-cpyr{
+        font-size: 4vmin;
+        line-height: 8vmin;
+        padding: 2% 5%;
+        color: #646464;
+        display: block;
+        
+    }
+    .footer-cpyr-li >h6{
+        align-items: center;
+        margin: 5px 40%;
+    }  
+}
+

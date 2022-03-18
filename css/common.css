@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+.sec{
+    padding: 0% 10%;
+}
+h1, h2, h3, h5, h6, p{
+    font-family: 'Roboto';
+}
+.flex-row-2-txt{
+    padding: 7% 5%;
+    width: 50%;
+    margin: 0 auto;
+}
+h2, h5, h6{
+    color: #3D3D3F;
+}
+.h2-txt{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 70px;
+    color: #3E3E3E;
+}
+a{
+    text-decoration: none;
+}
+.h2-twoline-text{
+    font-size: 4.9vmin;
+    line-height: 39px;
+}
+.h3-txt{
+    font-weight: normal;
+    font-size: 2.5vmin;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: rgba(61, 61, 63, 0.7);
+    margin: 15px 0px;
+}
+.h6-txt{
+    font-weight: 400;
+    font-size: 2vmin;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+}
+h5{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+}
+h6{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.pd{
+    padding: 2% 10%;
+}
+.h2-pd{
+    padding: 4% 0%;
+}
+.h2-top-pd{
+    padding-top: 4%
+}
+.li-wh{
+    color: #E5E5E5;
+}
+.li-wh-bg{
+    background-color: #E5E5E5;
+}
+.bal{
+    color: #000;
+}
+.dp-bl{
+    color: #1D2B4F;
+}
+.wh{
+    color: #fff;
+}
+.gr-bl{
+    color: #3E3E3E;
+}
+.gr-gr{
+    color: rgba(187, 172, 172, 0.734); 
+}
+.bl{
+    color: rgba(64, 163, 248, 1);
+}
+.gr{
+    color: gray;
+}
+.logo-bl{
+    color: rgba(64, 163, 248, 1);
+}
+.logo-wh{
+    color: #fff;
+}
+.logo-sty{
+    letter-spacing: 1px;
+    line-height: 47px;
+    font-size: 3.5vmin;
+    font-weight: 500;
+    font-family: Poppins;    
+}
+.b700{
+    font-weight: 700;
+}
+b400{
+    font-weight: 400;
+}
+.b600{
+    font-weight: 600;
+}
+.b500{
+    font-weight: 500;
+}
+.b900{
+    font-weight: 900;
+}
+.b800{
+    font-weight: 800;
+}
+.wh-bg{
+    background-color: #fff;
+}
+.bl-bg{
+    background-color:#40A3F8;
+}
+.wh-bg{
+    background-color: #fff;
+}
+.sky-bl-bg{
+    background-color: #E5E5E5;;
+}
+.txt-alig{
+    text-align: center;
+}
+.txt-alig-left{
+    text-align: left;
+}
+.pointer{
+    cursor: pointer;
+}
+.dis-flex-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Section Two */
+.flex-row-2{
+    padding: 6% 0%;
+    display: flex;
+    flex-direction: row;
+}
+.qual-doc{
+    width: 50%;
+}
+.qual-doc >img{
+    width: 100%;
+    transform: scale(1.1);
+}
+.flex-row-3 >div{
+    padding: 0% 3%;  
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/css/common.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="/css/dashboard.css">
+</head>
+
+<body>
+  <div class="dash-container">
+    <div class="flex-1 wh bl-bg">
+      <div class="flex1 logo">
+        <a href="/index.html">
+          <img src="/images/dash-grid1-img1.svg" alt="" class="hea">
+         </a> 
+        <h1><a href="/index.html" class="wh">Health Lite</a></h1>
+      </div>
+      <div class="flex1 flex1-1 active">
+        <img src="/images/dashboardicon.svg" alt="">
+        <h2 ><a href="#" class="wh">Dashboard</a></h2>
+      </div>
+      <div class=" flex1 flex1-1">
+        <img src="/images/waitingroon.svg" alt="">
+        <h2 class="wh">Waiting Room</h2>
+      </div>
+      <div class="flex1 flex1-1">
+       <a href="schedule.html">
+        <img src="/images/schedule.svg" alt="">
+       </a> 
+        <h2><a href="schedule.html" class="wh">Schedule</a> </h2>
+      </div>
+      <div class="flex1 flex1-1">
+        <img src="/images/dash-mypatients.svg" alt="">
+        <h2 class="wh">My Patients</h2>
+      </div>
+      <div class="flex1 flex1-1">
+        <img src="/images/dash-notes.svg" alt="">
+        <h2 class="wh">Notes</h2>
+      </div>
+      <div class="flex1 flex1-1 bt-space">
+        <img src="/images/dash-chats.svg" alt="">
+        <h2 class="wh">Chats</h2>
+      </div>
+      <div class="flex1 flex1-1">
+        <img src="/images/dash-myprof.svg" alt class="profile">
+        <h2 class="wh">My Profile</h2>
+      </div>
+      <div class="flex1 flex1-1">
+        <img src="/images/dash-settings.svg" alt="" class="settings">
+        <h2 class="wh">Settings</h2>
+      </div>
+    </div>
+
+    <!-- Flex 2 -->
+    <div class="flex-2">
+      <!-- Alarm header -->
+      <div class="header">
+        <img src="/images/dash-grid1-img1.svg" alt="" class="head">
+        <img src="/images/dash-al.svg">
+        <img src="/images/dash-al-img.svg">
+        <img
+          src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/36/000000/external-setting-essentials-pack-tanah-basah-glyph-tanah-basah.png"
+          alt="" class="settings sett">
+      </div>
+      <!-- flex2 scroll body -->
+      <div class="flex2-body li-wh-bg">
+        <!-- Flex 2 - row 1 -->
+        <div class="flex2-col1">
+          <div class="doc-intro bl-bg">
+            <div class="head-intro txt-alig-left">
+              <h3 class="li-wh">Welcome, <span class="wh">Dr. Fayemi David</span></h3>
+              <h4 class="li-wh">You have 16 new appointments and there are currently 23,445 patients in the waiting
+                room. Have a nice
+                day at work!</h4>
+              <button class="wh">
+                <h6 class="wh">View Your Appointments</h6>
+              </button>
+              <button>
+                <h6 class="wh">Go To Waiting Room</h6>
+              </button>
+            </div>
+            <div>
+              <img src="/images/dash-girl-img.svg">
+            </div>
+          </div>
+
+          <!-- Flex 2 - row 2 -->
+          <div class="flex2-row2">
+            <div class=" flex2-row2-grid wh-bg dp-bl">
+              <div class="alltime">
+                <img src="/images/purple-user.svg" alt="" />
+                <p class="b700">All Time
+                  <img src="/images/arrowdown.svg" alt="" />
+                </p>
+              </div>
+              <div class="api-call">
+                <h1 class="dp-bl" id="total_patients">0</h1>
+                <h5 class="gr">Total Patients</h5>
+              </div>
+              <p><img src="/images/dash-red-arrow.svg" alt=""> 5% less than last month</p>
+            </div>
+            <div class=" flex2-row2-grid wh-bg dp-bl">
+              <div class="alltime">
+                <img src="/images/dash-orange-cal.svg" alt="" />
+                <p class="b700">Today
+                  <img src="/images/arrowdown.svg" alt="" />
+                </p>
+              </div>
+              <div class="api-call">
+                <h1 class="dp-bl" id="appointme">0</h1>
+                <h5 class="gr">Appointments</h5>
+              </div>
+              <p><img src="/images/dash-green-arrow.svg" alt=""> 15% more than last yesterday</p>
+            </div>
+            <div class=" flex2-row2-grid wh-bg">
+              <div class="alltime dp-bl">
+                <img src="/images/dash-orange-alarm.svg" alt="" />
+                <p class="b700">Today
+                  <img src="/images/arrowdown.svg" alt="" />
+                </p>
+              </div>
+              <div class="api-call">
+                <h1 class="dp-bl" id="waiting_rm">0</h1>
+                <h5 class="gr">Waiting Room</h5>
+              </div>
+              <p><img src="/images/dash-green-arrow.svg" alt=""> 35% less than last yesterday</p>
+            </div>
+          </div>
+
+          <!-- Flex2 Row 3 -->
+          <div class="flex2-row3 wh-bg">
+            <div class="patients-roll">
+              <p class="underline dp-bl b700">Your Next Patients</p>
+              <p class="bl b700">View All <img src="/images/dash-arrowright.svg" alt=""></p>
+            </div>
+            <div class="people" id="patient_appointment">
+              <!-- Do not torch Fetching output from server -->
+            </div>
+          </div>
+
+          <!-- *************** Flex2 Row4 *****************************-->
+          <div class="flex2-row4">
+            <img src="/images/dash-appointment-stat.svg" alt="">
+          </div>
+        </div>
+
+        <!--************************* Flex2 - col2 ************************* -->
+        <div class="flex2-col2">
+          <!-- Flex Calender -->
+          <div class="flex2-col2-cal">
+            <img src="/images/full-calender.svg" alt="">
+          </div>
+
+          <!-- Flex - Patients by gender -->
+          <div class="flex2-col2-patByGen">
+            <img src="/images/dash-patients-gender.svg" alt="">
+          </div>
+
+          <!-- Flex - API -ACTIVITIES-->
+          <div class="api-act wh-bg">
+            <div class="act-head">
+              <h5 class="underline dp-bl b700">Activities</h5>
+              <img src="/images/dash-alarm.svg" alt="">
+            </div>
+            <div class="activi dp-bl" id="activity">
+              <!-- Do not torch Fetching output from server -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+
+</body>
+
+</html>

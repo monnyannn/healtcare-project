@@ -1,0 +1,64 @@
+<svg width="171" height="171" viewBox="0 0 171 171" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_5_351)">
+<circle cx="25.5215" cy="21.2703" r="3.00879" fill="#CDE9FF"/>
+<circle cx="45.5391" cy="21.2703" r="3.00879" fill="#CDE9FF"/>
+<circle cx="65.5566" cy="21.2703" r="3.00879" fill="#CDE9FF"/>
+<circle cx="85.5742" cy="21.2703" r="3.00879" fill="#CDE9FF"/>
+<circle cx="105.592" cy="21.2703" r="3.00879" fill="#CDE9FF"/>
+<circle cx="125.609" cy="21.2703" r="3.00879" fill="#CDE9FF"/>
+<circle cx="145.627" cy="21.2703" r="3.00879" fill="#CDE9FF"/>
+<circle cx="25.5215" cy="41.2878" r="3.00879" fill="#CDE9FF"/>
+<circle cx="25.5215" cy="61.3054" r="3.00879" fill="#CDE9FF"/>
+<circle cx="25.5215" cy="81.323" r="3.00879" fill="#CDE9FF"/>
+<circle cx="25.5215" cy="101.341" r="3.00879" fill="#CDE9FF"/>
+<circle cx="25.5215" cy="121.358" r="3.00879" fill="#CDE9FF"/>
+<circle cx="25.5215" cy="141.376" r="3.00879" fill="#CDE9FF"/>
+<circle cx="45.5391" cy="141.376" r="3.00879" fill="#CDE9FF"/>
+<circle cx="65.5566" cy="141.376" r="3.00879" fill="#CDE9FF"/>
+<circle cx="85.5742" cy="141.376" r="3.00879" fill="#CDE9FF"/>
+<circle cx="105.592" cy="141.376" r="3.00879" fill="#CDE9FF"/>
+<circle cx="125.609" cy="141.376" r="3.00879" fill="#CDE9FF"/>
+<circle cx="145.627" cy="141.376" r="3.00879" fill="#CDE9FF"/>
+<circle cx="45.5391" cy="121.358" r="3.00879" fill="#CDE9FF"/>
+<circle cx="65.5566" cy="121.358" r="3.00879" fill="#CDE9FF"/>
+<circle cx="85.5742" cy="121.358" r="3.00879" fill="#CDE9FF"/>
+<circle cx="105.592" cy="121.358" r="3.00879" fill="#CDE9FF"/>
+<circle cx="125.609" cy="121.358" r="3.00879" fill="#CDE9FF"/>
+<circle cx="145.627" cy="121.358" r="3.00879" fill="#CDE9FF"/>
+<circle cx="45.5391" cy="101.341" r="3.00879" fill="#CDE9FF"/>
+<circle cx="65.5566" cy="101.341" r="3.00879" fill="#CDE9FF"/>
+<circle cx="85.5742" cy="101.341" r="3.00879" fill="#CDE9FF"/>
+<circle cx="105.592" cy="101.341" r="3.00879" fill="#CDE9FF"/>
+<circle cx="125.609" cy="101.341" r="3.00879" fill="#CDE9FF"/>
+<circle cx="145.627" cy="101.341" r="3.00879" fill="#CDE9FF"/>
+<circle cx="45.5391" cy="81.323" r="3.00879" fill="#CDE9FF"/>
+<circle cx="65.5566" cy="81.323" r="3.00879" fill="#CDE9FF"/>
+<circle cx="85.5742" cy="81.323" r="3.00879" fill="#CDE9FF"/>
+<circle cx="105.592" cy="81.323" r="3.00879" fill="#CDE9FF"/>
+<circle cx="125.609" cy="81.323" r="3.00879" fill="#CDE9FF"/>
+<circle cx="145.627" cy="81.323" r="3.00879" fill="#CDE9FF"/>
+<circle cx="45.5391" cy="61.3054" r="3.00879" fill="#CDE9FF"/>
+<circle cx="65.5566" cy="61.3054" r="3.00879" fill="#CDE9FF"/>
+<circle cx="85.5742" cy="61.3054" r="3.00879" fill="#CDE9FF"/>
+<circle cx="105.592" cy="61.3054" r="3.00879" fill="#CDE9FF"/>
+<circle cx="125.609" cy="61.3054" r="3.00879" fill="#CDE9FF"/>
+<circle cx="145.627" cy="61.3054" r="3.00879" fill="#CDE9FF"/>
+<circle cx="45.5391" cy="41.2878" r="3.00879" fill="#CDE9FF"/>
+<circle cx="65.5566" cy="41.2878" r="3.00879" fill="#CDE9FF"/>
+<circle cx="85.5742" cy="41.2878" r="3.00879" fill="#CDE9FF"/>
+<circle cx="105.592" cy="41.2878" r="3.00879" fill="#CDE9FF"/>
+<circle cx="125.609" cy="41.2878" r="3.00879" fill="#CDE9FF"/>
+<circle cx="145.627" cy="41.2878" r="3.00879" fill="#CDE9FF"/>
+</g>
+<defs>
+<filter id="filter0_d_5_351" x="0.512695" y="0.261475" width="170.123" height="170.123" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="11"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5_351"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5_351" result="shape"/>
+</filter>
+</defs>
+</svg>
