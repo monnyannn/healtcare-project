@@ -23,8 +23,17 @@
 .logo{
      margin: 30px 0px;  
 }
+.logo >a >img{
+    margin-left: 20px;
+}
 .flex1 >img{
     margin-right: 20px;
+}
+.flex1 >a >img{
+    margin-right: 20px;
+}
+.profile{
+    width: 20px;
 }
 .active{
     background-color: #1D2B4F;
@@ -89,13 +98,17 @@
     position: absolute;
     top: 4px;
     right: 2%;
+    height: 100%;
+    max-height: fit-content;
+    bottom: 0;
+    right: 4%;
 }
 .head-intro >h3{
     font-size: 5vmin;
 }
 h4{
     font-size: 3vmin;
-    width: 80%;
+    width: 70%;
     line-height: 30px;
     letter-spacing: 0.3px;
 }
@@ -108,7 +121,6 @@ h4{
     outline: 0;
     border-radius: 5px;
 }
-
 /********************* Flex 2 - row 2 ***************************/
 .flex2-row2{
     display: flex;
@@ -233,14 +245,14 @@ h4{
         margin-bottom: 50%;
     }
     .doc-intro >div >img{
-        z-index: -1;
+        opacity: 0.4;
      }
      .head-intro >h3{
         font-size: 5vmin;
     }
     h4{
         font-size: 3vmin;
-        width: 100%;
+        width: 70%;
     } 
     .flex2-body{
         display: block;
@@ -277,7 +289,7 @@ h4{
         align-items: center;
         top: unset;
         bottom: 0;
-        padding: 0;
+        padding: 0% 5%;
         width: 100%;
         height: unset;
         z-index: 1;
@@ -292,6 +304,7 @@ h4{
     }
     .flex1 >img{
         width: 100%;
+        margin-right: 30px;
     }
     .profile{
         display: none

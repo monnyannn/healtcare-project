@@ -29,9 +29,6 @@ nav >ul >li >a:hover{
 nav button:hover{
     background-color: rgb(130, 126, 126);
 }
-.toggle-menu {
-    display:none;
-}
 .togg{
     font-size: 2.7rem;
     display: none;
@@ -39,12 +36,11 @@ nav button:hover{
 .toggle-menu{
     display: none;
     width: 26%;
-    height: 55.8vh;
     border-bottom-left-radius: 70px ;
+    height: 60vh;
     position: absolute;
     right: 0;
     z-index: 2;
-    top: 5.7em;
     transition: all 2s;
     animation: fade-in 2s;
 }
@@ -58,6 +54,7 @@ button{
     font-size: 15px;
     line-height: 22px;
 }
+
 .hd-content{
     width: 40%;
     position: absolute;
@@ -73,6 +70,7 @@ header p{
     font-weight: 400;
     font-size: 2.5vmin;
     line-height: 30px;
+    color: grey;
 }
 .head-img{
     position: absolute;
@@ -266,7 +264,6 @@ header p{
 .sec7-bg >h3{
     width: 42%;
     font-size: 4.8vmin;
-    z-index: 2;
 }
 .sec7-bg >img{
     position: absolute;
@@ -274,15 +271,20 @@ header p{
     max-height: fit-content;
     bottom: 0;
     right: 12%;
-    z-index: 1;
 }
 /****************** Section Eight - Footer *****************/
 .footer-bg {
-    background-color: white;
     display: grid;
     grid-template-columns: 40% 1fr 30%; 
     margin-top: 5%;
+    padding: 2% 0%;
     border-radius: 9;
+}
+.foot-social{
+    margin-top: 2%;
+}
+.fot{
+    padding: 0% 10%;
 }
 .two-foot >div >h4{
     font-size: 2.5vmin;
@@ -290,7 +292,7 @@ header p{
 }
 .two-foot >div >h6{
     padding: 8px;
-    font-size: 14px;
+    font-size: 2vmin;
     color: #646464;
 }
 .footer-name >p{
@@ -300,7 +302,6 @@ header p{
 }
 .two-foot{
     display: flex;
-    /* margin: 0% -4%; */
     gap: 30%;
     margin-right: 60%;
 }
@@ -320,14 +321,12 @@ form{
 .email{
     padding: 10px;
     margin-bottom: 6px;
-    border-radius: 5px;
-}
+    }
 /******************** Footer Copyright ********************/
 .footer-cpyr{
-    font-weight: 400;
     font-size: 14px;
-    line-height: 14px;
-    padding: 2% 5%;
+    line-height: 16px;
+    padding: 1% 10%;
     color: #646464;
     display: flex;
     justify-content: space-between;
@@ -447,13 +446,21 @@ textarea{
 @media only screen and (max-width:900px){
     /* Home Page */
     .head-img >img{
-        opacity: 0.6;
+        opacity: 0.4;
     }
     .hd-h1{
         font-size: 3.5vmin;
         line-height: 60px; 
         width: 50%; 
-        margin: 0% 20%; 
+    }
+    .h2-twoline-text {
+        font-size: 5vmin;
+    }
+    .h2-txt{
+        font-size: 6vmin;
+    }
+    .header >p{
+        font-weight: 900;
     }
     .mobile-app{
         display: flex;
@@ -464,6 +471,9 @@ textarea{
     .flex-row-3{
         display: block;
 
+    }
+    .sec2 >h6{
+        font-size: 6vmin;
     }
     .flex3-size{
         width: 100%;
@@ -537,6 +547,11 @@ textarea{
     }
     .footer-cpyr{
         display: block;
+        line-height: 12px;
+    }
+    .cpr{
+        text-align: center;
+        font-size: 14px;
     }
     .footer-cpyr-li >h6{
         align-items: center;
@@ -566,16 +581,16 @@ textarea{
     }
     .toggle-menu >ul >li{
         list-style: none;
-        margin:  32px;
-    }  
+        margin:  7px;
+    } 
+    .toggle-menu >ul{
+        margin: 10%;
+    } 
     .toggle-menu >ul >li >a{
-        margin: 30px; 
+        font-size: 3vmin;
         text-decoration: none;
     }
-    .toggle-menu >ul >button{
-        margin: 3% 14%;
-    }
-    .flex-row-2{
+  .flex-row-2{
         display: block;
     }
     .qual-doc, .flex-row-2-txt{
@@ -588,17 +603,24 @@ textarea{
         width: 100%;
         margin: 20px auto;
     }
-    .sec7-bg >img{
-        opacity: 0.7;
-    }
     .alg{
         text-align: center;
     }
     .sec7-bg >h3{
-        width: 100%;
-        font-size: 4.8vmin;
+        width: 50%;
+        font-size: 4.2vmin;
     }
-}@media only screen and (max-width:580px){
+}
+@media only screen and (max-width:580px){
+    head-pd{
+        margin: 0% 40%;
+    }
+    .hd-content{
+        width: 60%; 
+        line-height: 40px;
+        font-size: 15px;
+        height: 50%;
+    }
     .flex-col-4{
         display: flex;
         justify-content: center; 
@@ -606,28 +628,34 @@ textarea{
         gap: 10px;
         margin-top: 3%;
     }
+    .sec7-bg >h3{
+        width: 60%;
+        font-size: 2.5vmin;
+    }
+    h6, .he-p, .h3-txt, .s6-last-p {
+        font-size: 14px;
+    }
     .toggle-menu >ul >li{
         list-style: none;
-        margin: 20px;
-    }  
+        margin:  7px;
+    } 
+    .toggle-menu >ul{
+        margin: 10%;
+    } 
     .toggle-menu >ul >li >a{
-        margin: 1%;
-        text-align: center; 
-        font-size: 4vmin;
-        text-decoration: none;
-    }
-    .toggle-menu >ul >button{
-        margin: 7% 7%;
+        font-size: 3vmin;
     }
     .toggle-menu >ul >button >a{
-        font-size: 4vmin;
-        text-decoration: none;
+        font-size: 3vmin;
     }
     button{ 
-        padding: 5% 6%;
-        color: #40A3F8;    }
+        padding: 2% 5%;   
+    }
     .footer-bg {
         display: block;
+    }
+    .footer-bg >div >p{
+        font-size: 2.5vmin;
     }
     .footer-name{
         margin: 3% 30%
@@ -639,14 +667,17 @@ textarea{
         margin: 4% 28%;
     }
     .two-foot >div >h4{
-        font-size: 4vmin;
+        font-size: 3vmin;
+    }
+    .two-foot >div >h6{
+        font-size: 2.5vmin;
     }
     form, h5, .footer-sub >h4{
        text-align: center;
     }   
     .footer-cpyr{
-        font-size: 4vmin;
-        line-height: 8vmin;
+        font-size: 1vmin;
+        line-height: 3vmin;
         padding: 2% 5%;
         color: #646464;
         display: block;
@@ -657,4 +688,56 @@ textarea{
         margin: 5px 40%;
     }  
 }
+@media only screen and (max-width:450px){
+    .toggle-menu >ul >li{
+        margin:  0px;
+    } 
+    .toggle-menu >ul{
+        margin: 15%;
+    } 
+    .toggle-menu >ul >li >a{
+        font-size: 4vmin;
+    }
+    .toggle-menu >ul >button >a{
+        font-size: 3vmin;
+    }
+    .email >p{
+        font-size: 4vmin;
+    }
+    .mobile-app{
+        margin-top: 0;
+        line-height: 30px;
+    }
+    .mobile-app >img{
+        margin-right: 0;
+        width: 90%;
+    }
+    .sec7-bg >h3{
+        width: 40%;
+        line-height: 20px;
+        font-size: 2.5vmin;
+    }
+    .footer-bg >div >p{
+        font-size: 3vmin;
+    }
+    .two-foot >div >h4{
+        font-size: 3.4vmin;
+    }
+    .two-foot >div >h6{
+        font-size: 3.2vmin;
+    }
+    .cpr{
+        font-size: 3vmin;
+    }
+    .footer-cpyr-li >h6{
+        font-size: 4vmin;
+    }  
+    button{ 
+        padding: 2% 3%; 
+        font-size: 3vmin;
+    }
+}
+
+
+
 

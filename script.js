@@ -31,7 +31,6 @@ fetch(url)
         total_patients.innerHTML = display.totalPatients
         appointme.innerHTML = display.scheduledAppointments
         waiting_rm.innerHTML = display.waitinfRoom
-
         
     })
 
@@ -60,7 +59,6 @@ fetch(url2)
                 <div>
                   <img src="/images/activi-img2.svg" alt="">
                   <p>${items.title}</p>
-                </div>
                 `
 
             }
@@ -68,28 +66,30 @@ fetch(url2)
         }
     })
 
-    // SessionStorage
-    document.getElementById('messageForm')
-            .addEventListener('submit', () => {
-                let name = document.getElementById('userName').value;
-                let email = document.getElementById('userEmail').value;
-                let message = document.getElementById('userMessage').value;
-
-                const userInput = {name, email, message};
-                sessionStorage.setItem(`${name}'s Message`, JSON.stringify(userInput));
-                alert(`Hello ${name}, Your message has been submitted, we will get back to you shortly. Thank you`)
-            });
-
 // Toggle
-let abim = document.querySelector('.abimtog')
-let tm = document.querySelector('.toggle-menu')
-
-abim.addEventListener('click', () => {
-    tm.classList.toggle('display')
-    console.log("Abi,")
+let button = document.querySelector('#toggle-menu');
+button.addEventListener('click', e =>{
+    document.querySelector('#show_toog').classList.toggle('togg')
 })
 
+// let abim = document.querySelector('.abimtog')
+// let tm = document.querySelector('.toggle-menu')
 
-   
+// abim.addEventListener('click', () => {
+//     tm.classList.toggle('display')
+//     console.log("Abi,")
+// })
+
+ // SessionStorage
+ document.getElementById('messageForm').addEventListener('submit', () => {
+    let name = document.getElementById('userName').value;
+    let email = document.getElementById('userEmail').value;
+    let message = document.getElementById('userMessage').value;
+
+    const userInput = {name, email, message};
+    sessionStorage.setItem(`${name}'s Message`, JSON.stringify(userInput));
+    alert(`Hello ${name}, Your message has been submitted, we will get back to you shortly. Thank you`)
+});
+
     
 
